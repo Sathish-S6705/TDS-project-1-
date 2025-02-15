@@ -1,0 +1,185 @@
+2025-02-15 11:25:00,833 WARNING:  * Debugger is active!
+2025-02-15 11:25:00,841 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 11:25:28,872 INFO: 127.0.0.1 - - [15/Feb/2025 11:25:28] "POST /run HTTP/1.1" 200 -
+2025-02-15 11:25:33,003 INFO: 127.0.0.1 - - [15/Feb/2025 11:25:33] "POST /run HTTP/1.1" 200 -
+2025-02-15 11:27:08,688 INFO: 127.0.0.1 - - [15/Feb/2025 11:27:08] "POST /run HTTP/1.1" 200 -
+2025-02-15 11:27:18,105 INFO: 127.0.0.1 - - [15/Feb/2025 11:27:18] "POST /run HTTP/1.1" 200 -
+2025-02-15 11:27:26,800 INFO: 127.0.0.1 - - [15/Feb/2025 11:27:26] "POST /run HTTP/1.1" 200 -
+2025-02-15 11:27:39,119 INFO: 127.0.0.1 - - [15/Feb/2025 11:27:39] "POST /run HTTP/1.1" 200 -
+2025-02-15 11:27:47,633 INFO: 127.0.0.1 - - [15/Feb/2025 11:27:47] "POST /run HTTP/1.1" 200 -
+2025-02-15 11:27:56,634 INFO: 127.0.0.1 - - [15/Feb/2025 11:27:56] "POST /run HTTP/1.1" 200 -
+2025-02-15 11:28:08,708 INFO: 127.0.0.1 - - [15/Feb/2025 11:28:08] "POST /run HTTP/1.1" 200 -
+2025-02-15 11:29:39,577 INFO:  * Detected change in 'D:\\automation-agent\\app.py', reloading
+2025-02-15 11:29:40,475 WARNING:  * Debugger is active!
+2025-02-15 11:29:40,485 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 11:29:42,607 INFO:  * Detected change in 'D:\\automation-agent\\app.py', reloading
+2025-02-15 11:29:43,510 WARNING:  * Debugger is active!
+2025-02-15 11:29:43,516 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 11:30:32,631 INFO:  * Detected change in 'D:\\automation-agent\\app.py', reloading
+2025-02-15 11:30:33,869 WARNING:  * Debugger is active!
+2025-02-15 11:30:33,881 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 11:32:45,640 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-02-15 11:32:45,640 INFO: [33mPress CTRL+C to quit[0m
+2025-02-15 11:32:45,644 INFO:  * Restarting with stat
+2025-02-15 11:32:46,181 WARNING:  * Debugger is active!
+2025-02-15 11:32:46,186 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 11:33:16,342 INFO: 127.0.0.1 - - [15/Feb/2025 11:33:16] "POST /run HTTP/1.1" 200 -
+2025-02-15 15:56:31,384 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-02-15 15:56:31,385 INFO: [33mPress CTRL+C to quit[0m
+2025-02-15 15:56:31,388 INFO:  * Restarting with stat
+2025-02-15 15:56:32,186 WARNING:  * Debugger is active!
+2025-02-15 15:56:32,203 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 15:58:42,143 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-02-15 15:58:42,144 INFO: [33mPress CTRL+C to quit[0m
+2025-02-15 15:58:42,149 INFO:  * Restarting with stat
+2025-02-15 15:58:42,874 WARNING:  * Debugger is active!
+2025-02-15 15:58:42,882 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 15:59:10,269 ERROR: Error in /run: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-02-15 15:59:10,280 INFO: 127.0.0.1 - - [15/Feb/2025 15:59:10] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-02-15 16:06:12,633 INFO:  * Detected change in 'D:\\automation-agent\\app.py', reloading
+2025-02-15 16:06:12,870 INFO:  * Restarting with stat
+2025-02-15 16:06:13,927 WARNING:  * Debugger is active!
+2025-02-15 16:06:13,934 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 16:06:17,046 INFO:  * Detected change in 'D:\\automation-agent\\app.py', reloading
+2025-02-15 16:06:17,203 INFO:  * Restarting with stat
+2025-02-15 16:06:18,191 WARNING:  * Debugger is active!
+2025-02-15 16:06:18,202 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 16:07:54,672 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-02-15 16:07:54,672 INFO: [33mPress CTRL+C to quit[0m
+2025-02-15 16:07:54,675 INFO:  * Restarting with stat
+2025-02-15 16:07:55,427 WARNING:  * Debugger is active!
+2025-02-15 16:07:55,435 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 16:08:07,798 INFO: 127.0.0.1 - - [15/Feb/2025 16:08:07] "POST /run HTTP/1.1" 200 -
+2025-02-15 16:08:48,901 INFO: 127.0.0.1 - - [15/Feb/2025 16:08:48] "GET / HTTP/1.1" 200 -
+2025-02-15 16:21:26,030 INFO:  * Detected change in 'D:\\automation-agent\\datagen.py', reloading
+2025-02-15 16:21:26,124 INFO:  * Restarting with stat
+2025-02-15 16:21:27,376 WARNING:  * Debugger is active!
+2025-02-15 16:21:27,395 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 16:22:45,036 INFO:  * Detected change in 'D:\\automation-agent\\evaluate.py', reloading
+2025-02-15 16:22:45,141 INFO:  * Restarting with stat
+2025-02-15 16:22:46,104 WARNING:  * Debugger is active!
+2025-02-15 16:22:46,113 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 16:29:31,093 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-02-15 16:29:31,093 INFO: [33mPress CTRL+C to quit[0m
+2025-02-15 16:29:31,097 INFO:  * Restarting with stat
+2025-02-15 16:29:32,116 WARNING:  * Debugger is active!
+2025-02-15 16:29:32,127 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 16:33:28,279 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:33:28,282 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:28] "[35m[1mPOST /run?task=%0AInstall+`uv`+(if+required)+and+run+the+script+`https://raw.githubusercontent.com/sanand0/tools-in-data-science-public/tds-2025-01/datagen.py`%0Awith+`23f1003099@ds.study.iitm.ac.in`+as+the+only+argument%0A HTTP/1.1[0m" 500 -
+2025-02-15 16:33:29,613 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:29] "[31m[1mGET /read?path=/data/format.md HTTP/1.1[0m" 403 -
+2025-02-15 16:33:38,484 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:33:38,486 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:38] "[35m[1mPOST /run?task=%0AFormat+the+contents+of+`/data/format.md`+using+`prettier@3.4.2`,+updating+the+file+in-place%0A HTTP/1.1[0m" 500 -
+2025-02-15 16:33:39,719 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:39] "[31m[1mGET /read?path=/data/format.md HTTP/1.1[0m" 403 -
+2025-02-15 16:33:40,938 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:33:40,940 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:40] "[35m[1mPOST /run?task=The+file+`/data/dates.txt`+contains+a+list+of+dates,+one+per+line.+Count+the+number+of+Wednesdays+in+the+list,+and+write+just+the+number+to+`/data/dates-wednesdays.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:33:42,255 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:42] "[31m[1mGET /read?path=/data/dates-wednesdays.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:33:43,868 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:33:43,869 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:43] "[35m[1mPOST /run?task=Sort+the+array+of+contacts+in+`/data/contacts.json`+by+`last_name`,+then+`first_name`,+and+write+the+result+to+`/data/contacts-sorted.json` HTTP/1.1[0m" 500 -
+2025-02-15 16:33:45,088 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:45] "[31m[1mGET /read?path=/data/contacts-sorted.json HTTP/1.1[0m" 403 -
+2025-02-15 16:33:46,559 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:33:46,562 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:46] "[35m[1mPOST /run?task=Write+the+first+line+of+the+10+most+recent+`.log`+file+in+`/data/logs/`+to+`/data/logs-recent.txt`,+most+recent+first HTTP/1.1[0m" 500 -
+2025-02-15 16:33:47,807 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:47] "[31m[1mGET /read?path=/data/logs-recent.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:33:49,349 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:33:49,352 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:49] "[35m[1mPOST /run?task=Find+all+Markdown+(`.md`)+files+in+`/data/docs/`.%0AFor+each+file,+extract+the+first+occurrance+of+each+H1+(i.e.+a+line+starting+with+`%23+`).%0ACreate+an+index+file+`/data/docs/index.json`+that+maps+each+filename+(without+the+`/data/docs/`+prefix)+to+its+title%0A(e.g.+`{"README.md":+"Home",+"path/to/large-language-models.md":+"Large+Language+Models",+...}`) HTTP/1.1[0m" 500 -
+2025-02-15 16:33:50,552 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:50] "[31m[1mGET /read?path=/data/docs/index.json HTTP/1.1[0m" 403 -
+2025-02-15 16:33:51,840 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:33:51,842 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:51] "[35m[1mPOST /run?task=`/data/email.txt`+contains+an+email+message.+Pass+the+content+to+an+LLM+with+instructions+to+extract+the+sender's+email+address,+and+write+just+the+email+address+to+`/data/email-sender.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:33:53,037 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:53] "[31m[1mGET /read?path=/data/email-sender.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:33:54,292 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:33:54,293 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:54] "[35m[1mPOST /run?task=`/data/credit_card.png`+contains+a+credit+card+number.+Pass+the+image+to+an+LLM,+have+it+extract+the+card+number,+and+write+it+without+spaces+to+`/data/credit-card.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:33:55,490 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:55] "[31m[1mGET /read?path=/data/credit-card.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:33:58,394 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:33:58,397 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:58] "[35m[1mPOST /run?task=The+SQLite+database+file+`/data/ticket-sales.db`+has+a+`tickets`+with+columns+`type`,+`units`,+and+`price`.+Each+row+is+a+customer+bid+for+a+concert+ticket.+What+is+the+total+sales+of+all+the+items+in+the+"Gold"+ticket+type?+Write+the+number+in+`/data/ticket-sales-gold.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:33:59,644 INFO: 127.0.0.1 - - [15/Feb/2025 16:33:59] "[31m[1mGET /read?path=/data/ticket-sales-gold.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:34:35,525 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:34:35,526 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:35] "[35m[1mPOST /run?task=%0AInstall+`uv`+(if+required)+and+run+the+script+`https://raw.githubusercontent.com/sanand0/tools-in-data-science-public/tds-2025-01/datagen.py`%0Awith+`23f1003099@ds.study.iitm.ac.in`+as+the+only+argument%0A HTTP/1.1[0m" 500 -
+2025-02-15 16:34:36,743 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:36] "[31m[1mGET /read?path=/data/format.md HTTP/1.1[0m" 403 -
+2025-02-15 16:34:41,357 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:34:41,358 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:41] "[35m[1mPOST /run?task=%0AFormat+the+contents+of+`/data/format.md`+using+`prettier@3.4.2`,+updating+the+file+in-place%0A HTTP/1.1[0m" 500 -
+2025-02-15 16:34:42,608 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:42] "[31m[1mGET /read?path=/data/format.md HTTP/1.1[0m" 403 -
+2025-02-15 16:34:43,857 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:34:43,859 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:43] "[35m[1mPOST /run?task=The+file+`/data/dates.txt`+contains+a+list+of+dates,+one+per+line.+Count+the+number+of+Wednesdays+in+the+list,+and+write+just+the+number+to+`/data/dates-wednesdays.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:34:45,073 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:45] "[31m[1mGET /read?path=/data/dates-wednesdays.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:34:46,575 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:34:46,576 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:46] "[35m[1mPOST /run?task=Sort+the+array+of+contacts+in+`/data/contacts.json`+by+`last_name`,+then+`first_name`,+and+write+the+result+to+`/data/contacts-sorted.json` HTTP/1.1[0m" 500 -
+2025-02-15 16:34:47,909 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:47] "[31m[1mGET /read?path=/data/contacts-sorted.json HTTP/1.1[0m" 403 -
+2025-02-15 16:34:49,240 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:34:49,242 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:49] "[35m[1mPOST /run?task=Write+the+first+line+of+the+10+most+recent+`.log`+file+in+`/data/logs/`+to+`/data/logs-recent.txt`,+most+recent+first HTTP/1.1[0m" 500 -
+2025-02-15 16:34:50,558 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:50] "[31m[1mGET /read?path=/data/logs-recent.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:34:51,979 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:34:51,980 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:51] "[35m[1mPOST /run?task=Find+all+Markdown+(`.md`)+files+in+`/data/docs/`.%0AFor+each+file,+extract+the+first+occurrance+of+each+H1+(i.e.+a+line+starting+with+`%23+`).%0ACreate+an+index+file+`/data/docs/index.json`+that+maps+each+filename+(without+the+`/data/docs/`+prefix)+to+its+title%0A(e.g.+`{"README.md":+"Home",+"path/to/large-language-models.md":+"Large+Language+Models",+...}`) HTTP/1.1[0m" 500 -
+2025-02-15 16:34:53,279 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:53] "[31m[1mGET /read?path=/data/docs/index.json HTTP/1.1[0m" 403 -
+2025-02-15 16:34:54,527 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:34:54,528 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:54] "[35m[1mPOST /run?task=`/data/email.txt`+contains+an+email+message.+Pass+the+content+to+an+LLM+with+instructions+to+extract+the+sender's+email+address,+and+write+just+the+email+address+to+`/data/email-sender.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:34:55,788 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:55] "[31m[1mGET /read?path=/data/email-sender.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:34:56,992 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:34:56,994 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:56] "[35m[1mPOST /run?task=`/data/credit_card.png`+contains+a+credit+card+number.+Pass+the+image+to+an+LLM,+have+it+extract+the+card+number,+and+write+it+without+spaces+to+`/data/credit-card.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:34:58,640 INFO: 127.0.0.1 - - [15/Feb/2025 16:34:58] "[31m[1mGET /read?path=/data/credit-card.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:35:02,207 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:35:02,207 INFO: 127.0.0.1 - - [15/Feb/2025 16:35:02] "[35m[1mPOST /run?task=The+SQLite+database+file+`/data/ticket-sales.db`+has+a+`tickets`+with+columns+`type`,+`units`,+and+`price`.+Each+row+is+a+customer+bid+for+a+concert+ticket.+What+is+the+total+sales+of+all+the+items+in+the+"Gold"+ticket+type?+Write+the+number+in+`/data/ticket-sales-gold.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:35:03,489 INFO: 127.0.0.1 - - [15/Feb/2025 16:35:03] "[31m[1mGET /read?path=/data/ticket-sales-gold.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:37:16,245 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:37:16,247 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:16] "[35m[1mPOST /run?task=%0AInstall+`uv`+(if+required)+and+run+the+script+`https://raw.githubusercontent.com/sanand0/tools-in-data-science-public/tds-2025-01/datagen.py`%0Awith+`23f1003099@ds.study.iitm.ac.in`+as+the+only+argument%0A HTTP/1.1[0m" 500 -
+2025-02-15 16:37:17,628 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:17] "[31m[1mGET /read?path=/data/format.md HTTP/1.1[0m" 403 -
+2025-02-15 16:37:23,157 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:37:23,158 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:23] "[35m[1mPOST /run?task=%0AFormat+the+contents+of+`/data/format.md`+using+`prettier@3.4.2`,+updating+the+file+in-place%0A HTTP/1.1[0m" 500 -
+2025-02-15 16:37:24,393 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:24] "[31m[1mGET /read?path=/data/format.md HTTP/1.1[0m" 403 -
+2025-02-15 16:37:25,723 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:37:25,725 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:25] "[35m[1mPOST /run?task=The+file+`/data/dates.txt`+contains+a+list+of+dates,+one+per+line.+Count+the+number+of+Wednesdays+in+the+list,+and+write+just+the+number+to+`/data/dates-wednesdays.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:37:26,993 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:26] "[31m[1mGET /read?path=/data/dates-wednesdays.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:37:28,526 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:37:28,527 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:28] "[35m[1mPOST /run?task=Sort+the+array+of+contacts+in+`/data/contacts.json`+by+`last_name`,+then+`first_name`,+and+write+the+result+to+`/data/contacts-sorted.json` HTTP/1.1[0m" 500 -
+2025-02-15 16:37:29,734 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:29] "[31m[1mGET /read?path=/data/contacts-sorted.json HTTP/1.1[0m" 403 -
+2025-02-15 16:37:31,059 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:37:31,060 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:31] "[35m[1mPOST /run?task=Write+the+first+line+of+the+10+most+recent+`.log`+file+in+`/data/logs/`+to+`/data/logs-recent.txt`,+most+recent+first HTTP/1.1[0m" 500 -
+2025-02-15 16:37:32,571 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:32] "[31m[1mGET /read?path=/data/logs-recent.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:37:33,962 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:37:33,963 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:33] "[35m[1mPOST /run?task=Find+all+Markdown+(`.md`)+files+in+`/data/docs/`.%0AFor+each+file,+extract+the+first+occurrance+of+each+H1+(i.e.+a+line+starting+with+`%23+`).%0ACreate+an+index+file+`/data/docs/index.json`+that+maps+each+filename+(without+the+`/data/docs/`+prefix)+to+its+title%0A(e.g.+`{"README.md":+"Home",+"path/to/large-language-models.md":+"Large+Language+Models",+...}`) HTTP/1.1[0m" 500 -
+2025-02-15 16:37:35,163 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:35] "[31m[1mGET /read?path=/data/docs/index.json HTTP/1.1[0m" 403 -
+2025-02-15 16:37:36,396 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:37:36,397 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:36] "[35m[1mPOST /run?task=`/data/email.txt`+contains+an+email+message.+Pass+the+content+to+an+LLM+with+instructions+to+extract+the+sender's+email+address,+and+write+just+the+email+address+to+`/data/email-sender.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:37:37,644 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:37] "[31m[1mGET /read?path=/data/email-sender.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:37:38,847 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:37:38,848 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:38] "[35m[1mPOST /run?task=`/data/credit_card.png`+contains+a+credit+card+number.+Pass+the+image+to+an+LLM,+have+it+extract+the+card+number,+and+write+it+without+spaces+to+`/data/credit-card.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:37:40,148 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:40] "[31m[1mGET /read?path=/data/credit-card.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:37:42,698 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:37:42,699 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:42] "[35m[1mPOST /run?task=The+SQLite+database+file+`/data/ticket-sales.db`+has+a+`tickets`+with+columns+`type`,+`units`,+and+`price`.+Each+row+is+a+customer+bid+for+a+concert+ticket.+What+is+the+total+sales+of+all+the+items+in+the+"Gold"+ticket+type?+Write+the+number+in+`/data/ticket-sales-gold.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:37:44,079 INFO: 127.0.0.1 - - [15/Feb/2025 16:37:44] "[31m[1mGET /read?path=/data/ticket-sales-gold.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:45:02,883 INFO:  * Detected change in 'D:\\automation-agent\\app.py', reloading
+2025-02-15 16:45:03,002 INFO:  * Restarting with stat
+2025-02-15 16:45:04,484 WARNING:  * Debugger is active!
+2025-02-15 16:45:04,498 INFO:  * Debugger PIN: 485-172-356
+2025-02-15 16:45:21,910 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:45:21,911 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:21] "[35m[1mPOST /run?task=%0AInstall+`uv`+(if+required)+and+run+the+script+`https://raw.githubusercontent.com/sanand0/tools-in-data-science-public/tds-2025-01/datagen.py`%0Awith+`23f1003099@ds.study.iitm.ac.in`+as+the+only+argument%0A HTTP/1.1[0m" 500 -
+2025-02-15 16:45:23,305 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:23] "[31m[1mGET /read?path=/data/format.md HTTP/1.1[0m" 403 -
+2025-02-15 16:45:29,512 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:45:29,513 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:29] "[35m[1mPOST /run?task=%0AFormat+the+contents+of+`/data/format.md`+using+`prettier@3.4.2`,+updating+the+file+in-place%0A HTTP/1.1[0m" 500 -
+2025-02-15 16:45:30,990 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:30] "[31m[1mGET /read?path=/data/format.md HTTP/1.1[0m" 403 -
+2025-02-15 16:45:32,862 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:45:32,863 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:32] "[35m[1mPOST /run?task=The+file+`/data/dates.txt`+contains+a+list+of+dates,+one+per+line.+Count+the+number+of+Wednesdays+in+the+list,+and+write+just+the+number+to+`/data/dates-wednesdays.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:45:34,622 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:34] "[31m[1mGET /read?path=/data/dates-wednesdays.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:45:36,395 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:45:36,396 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:36] "[35m[1mPOST /run?task=Sort+the+array+of+contacts+in+`/data/contacts.json`+by+`last_name`,+then+`first_name`,+and+write+the+result+to+`/data/contacts-sorted.json` HTTP/1.1[0m" 500 -
+2025-02-15 16:45:37,732 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:37] "[31m[1mGET /read?path=/data/contacts-sorted.json HTTP/1.1[0m" 403 -
+2025-02-15 16:45:39,232 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:45:39,233 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:39] "[35m[1mPOST /run?task=Write+the+first+line+of+the+10+most+recent+`.log`+file+in+`/data/logs/`+to+`/data/logs-recent.txt`,+most+recent+first HTTP/1.1[0m" 500 -
+2025-02-15 16:45:40,551 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:40] "[31m[1mGET /read?path=/data/logs-recent.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:45:42,156 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:45:42,157 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:42] "[35m[1mPOST /run?task=Find+all+Markdown+(`.md`)+files+in+`/data/docs/`.%0AFor+each+file,+extract+the+first+occurrance+of+each+H1+(i.e.+a+line+starting+with+`%23+`).%0ACreate+an+index+file+`/data/docs/index.json`+that+maps+each+filename+(without+the+`/data/docs/`+prefix)+to+its+title%0A(e.g.+`{"README.md":+"Home",+"path/to/large-language-models.md":+"Large+Language+Models",+...}`) HTTP/1.1[0m" 500 -
+2025-02-15 16:45:43,537 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:43] "[31m[1mGET /read?path=/data/docs/index.json HTTP/1.1[0m" 403 -
+2025-02-15 16:45:44,979 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:45:44,980 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:44] "[35m[1mPOST /run?task=`/data/email.txt`+contains+an+email+message.+Pass+the+content+to+an+LLM+with+instructions+to+extract+the+sender's+email+address,+and+write+just+the+email+address+to+`/data/email-sender.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:45:46,427 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:46] "[31m[1mGET /read?path=/data/email-sender.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:45:48,141 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:45:48,141 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:48] "[35m[1mPOST /run?task=`/data/credit_card.png`+contains+a+credit+card+number.+Pass+the+image+to+an+LLM,+have+it+extract+the+card+number,+and+write+it+without+spaces+to+`/data/credit-card.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:45:49,864 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:49] "[31m[1mGET /read?path=/data/credit-card.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:45:56,215 ERROR: Error in /run: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-02-15 16:45:56,216 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:56] "[35m[1mPOST /run?task=The+SQLite+database+file+`/data/ticket-sales.db`+has+a+`tickets`+with+columns+`type`,+`units`,+and+`price`.+Each+row+is+a+customer+bid+for+a+concert+ticket.+What+is+the+total+sales+of+all+the+items+in+the+"Gold"+ticket+type?+Write+the+number+in+`/data/ticket-sales-gold.txt` HTTP/1.1[0m" 500 -
+2025-02-15 16:45:57,844 INFO: 127.0.0.1 - - [15/Feb/2025 16:45:57] "[31m[1mGET /read?path=/data/ticket-sales-gold.txt HTTP/1.1[0m" 403 -
+2025-02-15 16:48:44,650 INFO:  * Detected change in 'D:\\automation-agent\\app.py', reloading
+2025-02-15 16:48:44,805 INFO:  * Restarting with stat
