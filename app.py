@@ -1,4 +1,3 @@
-
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import PlainTextResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -24,12 +23,13 @@ app.add_middleware(
 
 app = FastAPI()
 load_dotenv()
+
 @app.get("/ask")
 def ask(prompt: str):
     result = get_completions(prompt)
     return result
 
-openai_api_chat  = "http://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
+openai_api_chat  = "http://aiproxy.sanand.workers.dev/openai/v1/chat/completions" # for testing
 openai_api_key = os.getenv("AIPROXY_TOKEN")
 
 headers = {
@@ -349,7 +349,6 @@ function_definitions_llm = [
             "required": ["md_path", "output_path"]
         }
     }
-
 ]
 
 def get_completions(prompt: str):
@@ -372,7 +371,7 @@ def get_completions(prompt: str):
         tool_calls = response.json().get("choices", [{}])[0].get("message", {}).get("tool_calls", [])
         if not tool_calls:
             return {"error": "No function match found"}
-        return tool_calls[0]["function"]
+        return tool_calls[0]["function"]  # Return function name and arguments
     except Exception as e:
         return {"error": f"Invalid response structure: {str(e)}"}
 
@@ -386,6 +385,7 @@ async def run_task(task: str):
         task_code = response["name"]
         arguments = json.loads(response["arguments"])
 
+        # Try executing from tasksA or tasksB
         if hasattr(tasksA, task_code):
             result = getattr(tasksA, task_code)(**arguments)
         elif hasattr(tasksB, task_code):
@@ -398,6 +398,7 @@ async def run_task(task: str):
     except Exception as e:
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
+# Placeholder for file reading
 @app.get("/read", response_class=PlainTextResponse)
 async def read_file(path: str = Query(..., description="File path to read")):
     try:
@@ -407,6 +408,11 @@ async def read_file(path: str = Query(..., description="File path to read")):
         raise HTTPException(status_code=404, detail="File not found")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/")
+def read_root():
+    return {"message": "Automation Agent is running!"}
+
 
 if __name__ == "__main__":
     import uvicorn
