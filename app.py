@@ -1,20 +1,3 @@
-# app.py
-# /// script
-# dependencies = [
-#   "requests",
-#   "fastapi",
-#   "uvicorn",
-#   "python-dateutil",
-#   "pandas",
-#   "db-sqlite3",
-#   "scipy",
-#   "pybase64",
-#   "python-dotenv",
-#   "httpx",
-#   "markdown",
-#   "duckdb"
-# ]
-# ///
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import PlainTextResponse, JSONResponse
@@ -41,49 +24,12 @@ app.add_middleware(
 
 app = FastAPI()
 load_dotenv()
-
-# @app.get('/ask')
-# def ask(prompt: str):
-#     """ Prompt Gemini to generate a response based on the given prompt. """
-#     gemini_api_key = os.getenv('gemini_api_key')
-#     if not gemini_api_key:
-#         return JSONResponse(content={"error": "GEMINI_API_KEY not set"}, status_code=500)
-
-#     # Read the contents of tasks.py
-#     with open('tasks.py', 'r') as file:
-#         tasks_content = file.read()
-
-#     # Prepare the request data
-#     data = {
-#         "contents": [{
-#             "parts": [
-#                 {"text": f"Find the task function from here for the below prompt:\n{tasks_content}\n\nPrompt: {prompt}\n\n respond with the function_name and function_parameters with parameters in json format"},
-#             ]
-#         }]
-#     }
-
-#     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={gemini_api_key}"
-#     headers = {
-#         "Content-Type": "application/json"
-#     }
-
-#     response = requests.post(url, json=data, headers=headers)
-
-#     if response.status_code == 200:
-#         text_reponse = response.json()["candidates"][0]["content"]["parts"][0]["text"]
-#         match = re.search(r'```json\n(.*?)\n```', text_reponse, re.DOTALL)
-#         text_reponse = match.group(1).strip() if match else text_reponse
-#         return json.loads(text_reponse)
-#         # return JSONResponse(content=response.json(), status_code=200)
-#     else:
-#         return JSONResponse(content={"error": "Failed to get response", "details": response.text}, status_code=response.status_code)
-
 @app.get("/ask")
 def ask(prompt: str):
     result = get_completions(prompt)
     return result
 
-openai_api_chat  = "http://aiproxy.sanand.workers.dev/openai/v1/chat/completions" # for testing
+openai_api_chat  = "http://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
 openai_api_key = os.getenv("AIPROXY_TOKEN")
 
 headers = {
@@ -98,8 +44,6 @@ function_definitions_llm = [
         "parameters": {
             "type": "object",
             "properties": {
-                # "filename": {"type": "string", "pattern": r"https?://.*\.py"},
-                # "targetfile": {"type": "string", "pattern": r".*/(.*\.py)"},
                 "email": {"type": "string", "pattern": r"[\w\.-]+@[\w\.-]+\.\w+"}
             },
             "required": ["filename", "targetfile", "email"]
@@ -286,7 +230,6 @@ function_definitions_llm = [
                 "filepath": {
                     "type": "string",
                     "pattern": r"^/data/.*",
-                    # "description": "Filepath must start with /data to ensure secure access."
                 }
             },
             "required": ["filepath"]
@@ -429,7 +372,7 @@ def get_completions(prompt: str):
         tool_calls = response.json().get("choices", [{}])[0].get("message", {}).get("tool_calls", [])
         if not tool_calls:
             return {"error": "No function match found"}
-        return tool_calls[0]["function"]  # Return function name and arguments
+        return tool_calls[0]["function"]
     except Exception as e:
         return {"error": f"Invalid response structure: {str(e)}"}
 
@@ -443,7 +386,6 @@ async def run_task(task: str):
         task_code = response["name"]
         arguments = json.loads(response["arguments"])
 
-        # Try executing from tasksA or tasksB
         if hasattr(tasksA, task_code):
             result = getattr(tasksA, task_code)(**arguments)
         elif hasattr(tasksB, task_code):
@@ -456,7 +398,6 @@ async def run_task(task: str):
     except Exception as e:
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
-# Placeholder for file reading
 @app.get("/read", response_class=PlainTextResponse)
 async def read_file(path: str = Query(..., description="File path to read")):
     try:
